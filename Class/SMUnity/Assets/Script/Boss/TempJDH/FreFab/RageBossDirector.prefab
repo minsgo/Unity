@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7621948075797128119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7621948075797128117}
+  - component: {fileID: 7621948075797128118}
+  m_Layer: 0
+  m_Name: RageBossDirector
+  m_TagString: Director
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7621948075797128117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7621948075797128119}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.39, y: -0.47242555, z: -0.048579}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7621948075797128118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7621948075797128119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50dc1c0e48fd7324b858deccd44d8d71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pattern1_Prefab1: {fileID: 8197396487744540241, guid: d70bc20943b0c764f9da892676a9f62a, type: 3}
+  Pattern1_Prefab2: {fileID: 4723559986817599867, guid: ca28b254f433a6a41ac385edf0a5c32c, type: 3}
+  Pattern2_Prefab1: {fileID: 6451073697059089457, guid: 74603e72f5812cd409cf547f12ccf0b1, type: 3}
+  Pattern2_Prefab2: {fileID: 5083322667667266201, guid: 002adeaef2347b94d9a4698977783776, type: 3}
+  Pattern3_Prefab1: {fileID: 6624348180661318730, guid: 1d35b617ffbe2384bbc6a020cf1e9d3c, type: 3}
+  Pattern3_Prefab2: {fileID: 5091178349002798812, guid: de1d2de25a6e92c47b9ccb946171ac2d, type: 3}
+  main_carema: {fileID: 0}

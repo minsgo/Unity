@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Scene_Game/MainScenes.unity
+    guid: e3b18146013401f44994f4a127321472
+  - enabled: 1
+    path: Assets/Scenes/Scene_Boss/BossScenes_Rage.unity
+    guid: 46b4a609e2e404740b471b45aec40b6c
+  - enabled: 1
+    path: Assets/Scenes/Scene_Boss/BossScenes_Delight.unity
+    guid: f54c32c247c17484b843eb4df9b4022d
+  - enabled: 1
+    path: Assets/Scenes/Scene_Game/GameOver.unity
+    guid: a3b02209990d45945bf6de70f2ada968
+  - enabled: 1
+    path: Assets/Scenes/Scene_Game/GameClear.unity
+    guid: 6fd10d6413df0554598a16bc6a05248f
+  - enabled: 1
+    path: Assets/Scenes/Scene_Boss/BossScenes_Sad.unity
+    guid: 59728427334ec914397e3d44b21094a2
+  - enabled: 1
+    path: Assets/Scenes/Scene_Game/StageSelect.unity
+    guid: 0aba3ca906d369b48be1ee03ca47d082
+  - enabled: 1
+    path: Assets/Scenes/Scene_Game/StageClear.unity
+    guid: a2ef392c22cf37d4d844ae9af7c3d389
+  - enabled: 1
+    path: Assets/Scenes/Scene_Game/StoryScenes.unity
+    guid: 17775ebaa7744c84c85aaf8f6c5c511f
+  m_configObjects: {}

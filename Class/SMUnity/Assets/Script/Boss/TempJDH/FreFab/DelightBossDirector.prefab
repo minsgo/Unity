@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3994869902199251756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3994869902199251759}
+  - component: {fileID: 3994869902199251758}
+  m_Layer: 0
+  m_Name: DelightBossDirector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3994869902199251759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3994869902199251756}
+  m_LocalRotation: {x: 0, y: 0, z: -0.38268343, w: 0.92387956}
+  m_LocalPosition: {x: -0.50318044, y: 0.52568257, z: -0.8086052}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45}
+--- !u!114 &3994869902199251758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3994869902199251756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772ca802e94cd1d4690eb8c3ad1158b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pattern1_warn: {fileID: 8441116993537876478, guid: 0f0780e71c83dc948b20472e1e1b5225, type: 3}
+  Pattern1_Feather: {fileID: 8535080411691396116, guid: 04b1eba041daec544afdafc7f57f4465, type: 3}
+  Pattern2_Prefab: {fileID: 3205796380721741668, guid: d4d6d2ed3e147974d92e451f44f9efe0, type: 3}
+  Pattern3_Prefab_warn: {fileID: 1311865157967060629, guid: c656f4574966ff44f83182d5abf0106f, type: 3}
+  Pattern3_Prefab: {fileID: 421518581734342290, guid: dbc18e3d28a411a4eb3052b52edc1016, type: 3}
+  main_carema: {fileID: 0}
